@@ -1,0 +1,23 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: charybdis
+name: Charybdis
+type: shield
+
+url: https://github.com/Bastardkb/Charybdis/
+
+features:
+  - keys
+  - pointer
+  - underglow
+  - studio
+
+requires:
+  - pro_micro
+
+siblings:
+  - charybdis_left
+  - charybdis_right
