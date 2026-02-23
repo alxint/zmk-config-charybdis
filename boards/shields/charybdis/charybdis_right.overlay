@@ -6,7 +6,6 @@
  
 #include "charybdis.dtsi"
 #include "charybdis_pmw3610.dtsi"
-#include "charybdis_right_rgb.dtsi"
 #include "charybdis_trackball_processors.dtsi"
 
 &default_transform {
@@ -35,4 +34,6 @@
     };
 };
 
-
+&led_strip {
+  chain-length = <27>;
+};
