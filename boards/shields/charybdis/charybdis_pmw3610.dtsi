@@ -44,8 +44,6 @@
         force-awake;
         force-awake-4ms-mode;
 
-        scroll-layers = <3>;
-        snipe-layers = <4>;
     };
 };
 
