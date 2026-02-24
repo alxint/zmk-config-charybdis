@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
 #include "charybdis-layouts.dtsi"
+#include "charybdis_rgb.dtsi"
 
 / {
     chosen {

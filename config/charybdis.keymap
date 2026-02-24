@@ -22,10 +22,6 @@
     tapping-term-ms = <170>;
 };
 
-&led_strip {
-  chain-length = <29>;
-};
-
 // Layer definitions
 #define BASE 0
 #define POINTER 1
